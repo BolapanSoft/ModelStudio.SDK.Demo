@@ -1,0 +1,29 @@
+<Project>
+    <PropertyGroup>
+        <!--<NCadSDK>$(SolutionDir)..\NanoCAD\NC_SDK_22.0\</NCadSDK>-->
+        <!--<MS_SDK>$(SolutionDir)..\CS Studio API\Stable_API\Model Studio CS\</MS_SDK>-->
+    </PropertyGroup>
+	<Import Project="..\Directory.Build.props" />
+    
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release ACAD|Win32'" Label="PropertySheets">
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug NCAD|Win32'" Label="PropertySheets">
+        <Import Project="$(NC_SDK)include\arxgate\rxsdk_debugcfg.props" />
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release NCAD|Win32'" Label="PropertySheets">
+        <Import Project="$(NC_SDK)include\arxgate\rxsdk_releasecfg.props" />
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug ACAD|Win32'" Label="PropertySheets">
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release ACAD|x64'" Label="PropertySheets">
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug NCAD|x64'" Label="PropertySheets">
+        <Import Project="$(NC_SDK)include\arxgate\rxsdk_debugcfg.props" />
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release NCAD|x64'" Label="PropertySheets">
+        <Import Project="$(NC_SDK)include\arxgate\rxsdk_releasecfg.props" />
+    </ImportGroup>
+    <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug ACAD|x64'" Label="PropertySheets">
+    </ImportGroup>
+
+</Project>

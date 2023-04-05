@@ -1,0 +1,993 @@
+"struct IDispatch * __ptr64 __cdecl CreateElementWrapper(class CElement const * __ptr64,bool)",UnitsCSCom.dll,Exported Function
+struct ATL::_ATL_INTMAP_ENTRY const * const `public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CoElement::_GetEntries(void)'::`2'::_entries,UnitsCSCom.dll,Exported Function
+struct ATL::_ATL_INTMAP_ENTRY const * const `public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CMDSObjects::_GetEntries(void)'::`2'::_entries,UnitsCSCom.dll,Exported Function
+struct ATL::_ATL_INTMAP_ENTRY const * const `public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CMDSNodes::_GetEntries(void)'::`2'::_entries,UnitsCSCom.dll,Exported Function
+struct ATL::_ATL_INTMAP_ENTRY const * const `public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CEnumVariantImpl::_GetEntries(void)'::`2'::_entries,UnitsCSCom.dll,Exported Function
+"public: void __cdecl CPersistentObjectsCollection::Init(class NcArray<class NcDbObjectId,class OdPlainObjectsAllocator<class NcDbObjectId> > & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: void __cdecl CPersistentObjectsCollection::AddItemUnique(class NcDbObjectId const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CPersistentObjectsCollection::AddItem(class NcDbObjectId const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CoElementTemporary::Initialize(class CElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CoElementStandalone::InitializeFullHierarchy(class CElement const * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CoElementStandalone::Initialize(class CElement const * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: void __cdecl CoElementPersistent::Initialize(class NcDbObjectId const & __ptr64,int,class CoElementAdapter * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: void __cdecl CoElement::InternalFinalConstructRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CoElement::InternalFinalConstructAddRef(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CoElement::FinalRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSObjects::InternalFinalConstructRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSObjects::InternalFinalConstructAddRef(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: void __cdecl CMDSObjects::Initialize(class NcArray<class NcDbObjectId,class OdPlainObjectsAllocator<class NcDbObjectId> > & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSObjects::FinalRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSNodes::InternalFinalConstructRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSNodes::InternalFinalConstructAddRef(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: void __cdecl CMDSNodes::Initialize(class NcArray<class NcDbObjectId,class OdPlainObjectsAllocator<class NcDbObjectId> > & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSNodes::FinalRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CMDSNodes::AddObjectId(class NcDbObjectId const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl CEnumVariantImpl::FinalRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: void __cdecl CEnumVariantImpl::Create(struct IUnknown * __ptr64,class CItemCollection * __ptr64,long) __ptr64",UnitsCSCom.dll,Exported Function
+public: void __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::Unlock(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: void __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::Lock(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual void __cdecl CoElementTemporary::ReleaseElement(class CElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual void __cdecl CoElementPersistent::ReleaseElement(class CElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual struct IDispatch * __ptr64 __cdecl CPersistentObjectsCollection::CreateCOMObject(void * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual struct IDispatch * __ptr64 __cdecl CPersistentObjectsCollection::CreateCOMObject(long) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CPersistentObjectsCollection::Unlock(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CPersistentObjectsCollection::Lock(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CPersistentObjectsCollection::GetCount(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementTemporary::get_ObjectId(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementTemporary::get_IsValid(short * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementTemporary::get_HasParent(short * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementTemporary::get_FrameId(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementTemporary::get_ElementId(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementStandalone::get_Implementation(struct tagVARIANT * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementStandalone::CreateParentObject(struct IElement * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElementStandalone::CreateElement(class CElement * __ptr64,struct IElement * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementPersistent::get_ObjectId(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementPersistent::get_IsValid(short * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementPersistent::get_HasParent(short * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementPersistent::get_FrameId(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElementPersistent::get_ElementId(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::put_Parent(struct IElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::put_Name(wchar_t * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::InterfaceSupportsErrorInfo(struct _GUID const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElement::GetValueComment(wchar_t * __ptr64,wchar_t * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElement::GetValue(wchar_t * __ptr64,wchar_t * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElement::GetPath(wchar_t * __ptr64,wchar_t * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElement::GetParentByLevel(long,struct IElement * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElement::GetById(long,struct IElement * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_SubElements(struct IElements * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_Parent(struct IElement * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_Parameters(struct IParameters * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_Name(wchar_t * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_IsValid(short * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_Implementation(struct tagVARIANT * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::get_Description(wchar_t * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CoElement::CopyFrom(struct IElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CoElement::AddChild(wchar_t * __ptr64,struct IElement * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CMDSObjects::Item(struct tagVARIANT,struct IDispatch * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CMDSObjects::InterfaceSupportsErrorInfo(struct _GUID const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CMDSObjects::get_Count(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CMDSObjects::get__NewEnum(struct IUnknown * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CMDSNodes::Item(struct tagVARIANT,struct IDispatch * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CMDSNodes::get_Count(long * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CMDSNodes::get__NewEnum(struct IUnknown * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CEnumVariantImpl::Skip(unsigned long) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CEnumVariantImpl::Reset(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl CEnumVariantImpl::Next(unsigned long,struct tagVARIANT * __ptr64,unsigned long * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual long __cdecl CEnumVariantImpl::Clone(struct IEnumVARIANT * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::Invoke(long,struct _GUID const & __ptr64,unsigned long,unsigned short,struct tagDISPPARAMS * __ptr64,struct tagVARIANT * __ptr64,struct tagEXCEPINFO * __ptr64,unsigned int * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTypeInfoCount(unsigned int * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTypeInfo(unsigned int,unsigned long,struct ITypeInfo * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetIDsOfNames(struct _GUID const & __ptr64,wchar_t * __ptr64 * __ptr64,unsigned int,unsigned long,long * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::Invoke(long,struct _GUID const & __ptr64,unsigned long,unsigned short,struct tagDISPPARAMS * __ptr64,struct tagVARIANT * __ptr64,struct tagEXCEPINFO * __ptr64,unsigned int * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTypeInfoCount(unsigned int * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTypeInfo(unsigned int,unsigned long,struct ITypeInfo * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetIDsOfNames(struct _GUID const & __ptr64,wchar_t * __ptr64 * __ptr64,unsigned int,unsigned long,long * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::Invoke(long,struct _GUID const & __ptr64,unsigned long,unsigned short,struct tagDISPPARAMS * __ptr64,struct tagVARIANT * __ptr64,struct tagEXCEPINFO * __ptr64,unsigned int * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTypeInfoCount(unsigned int * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTypeInfo(unsigned int,unsigned long,struct ITypeInfo * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual long __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetIDsOfNames(struct _GUID const & __ptr64,wchar_t * __ptr64 * __ptr64,unsigned int,unsigned long,long * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual int __cdecl CoElementTemporary::EnableWrite(class CElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual int __cdecl CoElementPersistent::EnableWrite(class CElement * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual class CoElementAdapter * __ptr64 __cdecl CoElementAdapterT<class linCSNode>::Clone(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual class CoElementAdapter * __ptr64 __cdecl CoElementAdapterT<class linCSDataObject>::Clone(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual class CoElementAdapter * __ptr64 __cdecl CoElementAdapterT<class linCSCollision>::Clone(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual class CElement * __ptr64 __cdecl CoElementTemporary::GetElementPtr(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual class CElement * __ptr64 __cdecl CoElementPersistent::GetElementPtr(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: virtual class CElement * __ptr64 __cdecl CoElementAdapterT<class linCSNode>::GetElementPtr(class NcDbObject * __ptr64,int) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual class CElement * __ptr64 __cdecl CoElementAdapterT<class linCSDataObject>::GetElementPtr(class NcDbObject * __ptr64,int) __ptr64",UnitsCSCom.dll,Exported Function
+"public: virtual class CElement * __ptr64 __cdecl CoElementAdapterT<class linCSCollision>::GetElementPtr(class NcDbObject * __ptr64,int) __ptr64",UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CPersistentObjectsCollection::~CPersistentObjectsCollection(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CoElementPersistent::~CoElementPersistent(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CoElementAdapterT<class linCSNode>::~CoElementAdapterT<class linCSNode>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CoElementAdapterT<class linCSDataObject>::~CoElementAdapterT<class linCSDataObject>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CoElementAdapterT<class linCSCollision>::~CoElementAdapterT<class linCSCollision>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CoElementAdapter::~CoElementAdapter(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CNodesPersistentCollection::~CNodesPersistentCollection(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CItemCollection::~CItemCollection(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: virtual __cdecl CEnumVariantImpl::~CEnumVariantImpl(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: unsigned long __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::InternalRelease(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: unsigned long __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::InternalAddRef(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CoElement::GetUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CoElement::_GetRawUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CMDSObjects::GetUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CMDSObjects::_GetRawUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CMDSNodes::GetUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CMDSNodes::_GetRawUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CEnumVariantImpl::GetUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: struct IUnknown * __ptr64 __cdecl CEnumVariantImpl::_GetRawUnknown(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: static wchar_t const * __ptr64 __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::GetObjectDescription(void)",UnitsCSCom.dll,Exported Function
+"public: static wchar_t const * __ptr64 __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::GetObjectDescription(void)",UnitsCSCom.dll,Exported Function
+"public: static wchar_t const * __ptr64 __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::GetObjectDescription(void)",UnitsCSCom.dll,Exported Function
+"public: static wchar_t const * __ptr64 __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::GetObjectDescription(void)",UnitsCSCom.dll,Exported Function
+public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CoElement::_GetEntries(void),UnitsCSCom.dll,Exported Function
+public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CMDSObjects::_GetEntries(void),UnitsCSCom.dll,Exported Function
+public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CMDSNodes::_GetEntries(void),UnitsCSCom.dll,Exported Function
+public: static struct ATL::_ATL_INTMAP_ENTRY const * __ptr64 __cdecl CEnumVariantImpl::_GetEntries(void),UnitsCSCom.dll,Exported Function
+"public: static struct _GUID const & __ptr64 __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::GetObjectCLSID(void)",UnitsCSCom.dll,Exported Function
+"public: static struct _GUID const & __ptr64 __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::GetObjectCLSID(void)",UnitsCSCom.dll,Exported Function
+"public: static struct _GUID const & __ptr64 __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::GetObjectCLSID(void)",UnitsCSCom.dll,Exported Function
+"public: static struct _GUID const & __ptr64 __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::GetObjectCLSID(void)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl CSoidPropertiesCounter::GetSolidBodyProperty(class NcDbObjectId,enum linCSParametricSolidBase::EPropType,struct tagVARIANT,struct tagVARIANT,double * __ptr64)",UnitsCSCom.dll,Exported Function
+public: static long __cdecl CoElement::UpdateRegistry(int),UnitsCSCom.dll,Exported Function
+"public: static long __cdecl CoElement::_Cache(void * __ptr64,struct _GUID const & __ptr64,void * __ptr64 * __ptr64,unsigned __int64)",UnitsCSCom.dll,Exported Function
+public: static long __cdecl CMDSObjects::UpdateRegistry(int),UnitsCSCom.dll,Exported Function
+"public: static long __cdecl CMDSObjects::_Cache(void * __ptr64,struct _GUID const & __ptr64,void * __ptr64 * __ptr64,unsigned __int64)",UnitsCSCom.dll,Exported Function
+public: static long __cdecl CMDSNodes::UpdateRegistry(int),UnitsCSCom.dll,Exported Function
+"public: static long __cdecl CMDSNodes::_Cache(void * __ptr64,struct _GUID const & __ptr64,void * __ptr64 * __ptr64,unsigned __int64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl CEnumVariantImpl::_Cache(void * __ptr64,struct _GUID const & __ptr64,void * __ptr64 * __ptr64,unsigned __int64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::Error(wchar_t const * __ptr64,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::Error(wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::Error(unsigned int,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::Error(unsigned int,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::Error(char const * __ptr64,unsigned long,char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::Error(char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::Error(wchar_t const * __ptr64,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::Error(wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::Error(unsigned int,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::Error(unsigned int,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::Error(char const * __ptr64,unsigned long,char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::Error(char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::Error(wchar_t const * __ptr64,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::Error(wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::Error(unsigned int,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::Error(unsigned int,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::Error(char const * __ptr64,unsigned long,char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::Error(char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::Error(wchar_t const * __ptr64,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::Error(wchar_t const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::Error(unsigned int,unsigned long,wchar_t const * __ptr64,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::Error(unsigned int,struct _GUID const & __ptr64,long,struct HINSTANCE__ * __ptr64)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::Error(char const * __ptr64,unsigned long,char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: static long __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::Error(char const * __ptr64,struct _GUID const & __ptr64,long)",UnitsCSCom.dll,Exported Function
+"public: long __cdecl CPersistentObjectsCollection::GetObjectW(struct tagVARIANT const & __ptr64,struct IDispatch * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: long __cdecl CPersistentObjectsCollection::get__NewEnum(struct IUnknown * __ptr64,struct IUnknown * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: long __cdecl CoElement::FinalConstruct(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: long __cdecl CoElement::_InternalQueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: long __cdecl CMDSObjects::FinalConstruct(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: long __cdecl CMDSObjects::_InternalQueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: long __cdecl CMDSNodes::FinalConstruct(void) __ptr64,UnitsCSCom.dll,Exported Function
+"public: long __cdecl CMDSNodes::_InternalQueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: long __cdecl CEnumVariantImpl::_InternalQueryInterface(struct _GUID const & __ptr64,void * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: long __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::_AtlInitialConstruct(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: int __cdecl CPersistentObjectsCollection::RemoveItem(struct tagVARIANT) __ptr64,UnitsCSCom.dll,Exported Function
+"public: int __cdecl CItemCollection::GetItem(struct tagVARIANT const & __ptr64,void * __ptr64 * __ptr64,bool) __ptr64",UnitsCSCom.dll,Exported Function
+public: class CSoidPropertiesCounter & __ptr64 __cdecl CSoidPropertiesCounter::operator=(class CSoidPropertiesCounter const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CSoidPropertiesCounter & __ptr64 __cdecl CSoidPropertiesCounter::operator=(class CSoidPropertiesCounter && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CPersistentObjectsCollection & __ptr64 __cdecl CPersistentObjectsCollection::operator=(class CPersistentObjectsCollection const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementTemporary & __ptr64 __cdecl CoElementTemporary::operator=(class CoElementTemporary const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementTemporary & __ptr64 __cdecl CoElementTemporary::operator=(class CoElementTemporary && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementStandalone & __ptr64 __cdecl CoElementStandalone::operator=(class CoElementStandalone const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementStandalone & __ptr64 __cdecl CoElementStandalone::operator=(class CoElementStandalone && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapterT<class linCSNode> & __ptr64 __cdecl CoElementAdapterT<class linCSNode>::operator=(class CoElementAdapterT<class linCSNode> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapterT<class linCSNode> & __ptr64 __cdecl CoElementAdapterT<class linCSNode>::operator=(class CoElementAdapterT<class linCSNode> && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapterT<class linCSDataObject> & __ptr64 __cdecl CoElementAdapterT<class linCSDataObject>::operator=(class CoElementAdapterT<class linCSDataObject> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapterT<class linCSDataObject> & __ptr64 __cdecl CoElementAdapterT<class linCSDataObject>::operator=(class CoElementAdapterT<class linCSDataObject> && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapterT<class linCSCollision> & __ptr64 __cdecl CoElementAdapterT<class linCSCollision>::operator=(class CoElementAdapterT<class linCSCollision> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapterT<class linCSCollision> & __ptr64 __cdecl CoElementAdapterT<class linCSCollision>::operator=(class CoElementAdapterT<class linCSCollision> && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElementAdapter & __ptr64 __cdecl CoElementAdapter::operator=(class CoElementAdapter const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElement & __ptr64 __cdecl CoElement::operator=(class CoElement const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CoElement & __ptr64 __cdecl CoElement::operator=(class CoElement && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CNodesPersistentCollection & __ptr64 __cdecl CNodesPersistentCollection::operator=(class CNodesPersistentCollection const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CNodesPersistentCollection & __ptr64 __cdecl CNodesPersistentCollection::operator=(class CNodesPersistentCollection && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CMDSObjects & __ptr64 __cdecl CMDSObjects::operator=(class CMDSObjects const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CMDSObjects & __ptr64 __cdecl CMDSObjects::operator=(class CMDSObjects && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CMDSNodes & __ptr64 __cdecl CMDSNodes::operator=(class CMDSNodes const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CMDSNodes & __ptr64 __cdecl CMDSNodes::operator=(class CMDSNodes && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CItemCollection & __ptr64 __cdecl CItemCollection::operator=(class CItemCollection const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: class CEnumVariantImpl & __ptr64 __cdecl CEnumVariantImpl::operator=(class CEnumVariantImpl const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: class ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> & __ptr64 __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::operator=(class ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> & __ptr64 __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::operator=(class ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> & __ptr64 __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::operator=(class ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> & __ptr64 __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::operator=(class ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> & __ptr64 __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::operator=(class ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> & __ptr64 __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::operator=(class ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: class ATL::CComObjectRootEx<class ATL::CComSingleThreadModel> & __ptr64 __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::operator=(class ATL::CComObjectRootEx<class ATL::CComSingleThreadModel> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element> & __ptr64 __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::operator=(class ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element> & __ptr64 __cdecl ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element>::operator=(class ATL::CComCoClass<class CoElementStandalone,&struct _GUID const CLSID_Element> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects> & __ptr64 __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::operator=(class ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects> & __ptr64 __cdecl ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects>::operator=(class ATL::CComCoClass<class CMDSObjects,&struct _GUID const CLSID_MDSObjects> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes> & __ptr64 __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::operator=(class ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes> & __ptr64 __cdecl ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes>::operator=(class ATL::CComCoClass<class CMDSNodes,&struct _GUID const CLSID_MDSNodes> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL> & __ptr64 __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::operator=(class ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: class ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL> & __ptr64 __cdecl ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL>::operator=(class ATL::CComCoClass<class CEnumVariantImpl,&struct _GUID const GUID_NULL> && __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: __cdecl CSoidPropertiesCounter::CSoidPropertiesCounter(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CPersistentObjectsCollection::CPersistentObjectsCollection(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CPersistentObjectsCollection::CPersistentObjectsCollection(class CPersistentObjectsCollection const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementTemporary::~CoElementTemporary(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementTemporary::CoElementTemporary(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementTemporary::CoElementTemporary(class CoElementTemporary const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementTemporary::CoElementTemporary(class CoElementTemporary && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementStandalone::~CoElementStandalone(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementStandalone::CoElementStandalone(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementStandalone::CoElementStandalone(class CoElementStandalone const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementStandalone::CoElementStandalone(class CoElementStandalone && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementPersistent::CoElementPersistent(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSNode>::CoElementAdapterT<class linCSNode>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSNode>::CoElementAdapterT<class linCSNode>(class CoElementAdapterT<class linCSNode> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSNode>::CoElementAdapterT<class linCSNode>(class CoElementAdapterT<class linCSNode> && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSDataObject>::CoElementAdapterT<class linCSDataObject>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSDataObject>::CoElementAdapterT<class linCSDataObject>(class CoElementAdapterT<class linCSDataObject> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSDataObject>::CoElementAdapterT<class linCSDataObject>(class CoElementAdapterT<class linCSDataObject> && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSCollision>::CoElementAdapterT<class linCSCollision>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSCollision>::CoElementAdapterT<class linCSCollision>(class CoElementAdapterT<class linCSCollision> const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapterT<class linCSCollision>::CoElementAdapterT<class linCSCollision>(class CoElementAdapterT<class linCSCollision> && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapter::CoElementAdapter(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElementAdapter::CoElementAdapter(class CoElementAdapter const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElement::~CoElement(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElement::CoElement(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElement::CoElement(class CoElement const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CoElement::CoElement(class CoElement && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CNodesPersistentCollection::CNodesPersistentCollection(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CNodesPersistentCollection::CNodesPersistentCollection(class CNodesPersistentCollection const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CNodesPersistentCollection::CNodesPersistentCollection(class CNodesPersistentCollection && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSObjects::~CMDSObjects(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSObjects::CMDSObjects(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSObjects::CMDSObjects(class CMDSObjects const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSObjects::CMDSObjects(class CMDSObjects && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSNodes::~CMDSNodes(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSNodes::CMDSNodes(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSNodes::CMDSNodes(class CMDSNodes const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CMDSNodes::CMDSNodes(class CMDSNodes && __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CItemCollection::CItemCollection(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CItemCollection::CItemCollection(class CItemCollection const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CEnumVariantImpl::CEnumVariantImpl(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl CEnumVariantImpl::CEnumVariantImpl(class CEnumVariantImpl const & __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"public: __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>(void) __ptr64",UnitsCSCom.dll,Exported Function
+"public: __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>(class ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>(void) __ptr64",UnitsCSCom.dll,Exported Function
+"public: __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>(class ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"public: __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>(void) __ptr64",UnitsCSCom.dll,Exported Function
+"public: __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>(class ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder> const & __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+public: __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::~CComObjectRootEx<class ATL::CComSingleThreadModel>(void) __ptr64,UnitsCSCom.dll,Exported Function
+public: __cdecl ATL::CComObjectRootEx<class ATL::CComSingleThreadModel>::CComObjectRootEx<class ATL::CComSingleThreadModel>(void) __ptr64,UnitsCSCom.dll,Exported Function
+"protected: void __cdecl CoElement::SetParameters(class CElement * __ptr64,struct IElement * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"protected: void __cdecl CoElement::AddSubElements(class CElement * __ptr64,struct IElement * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+protected: virtual void * __ptr64 __cdecl CPersistentObjectsCollection::FindItem(long) __ptr64,UnitsCSCom.dll,Exported Function
+"protected: virtual void * __ptr64 __cdecl CNodesPersistentCollection::FindItem(wchar_t const * __ptr64,bool) __ptr64",UnitsCSCom.dll,Exported Function
+"protected: virtual void * __ptr64 __cdecl CItemCollection::FindItem(wchar_t const * __ptr64,bool) __ptr64",UnitsCSCom.dll,Exported Function
+protected: virtual void * __ptr64 __cdecl CItemCollection::FindItem(struct IUnknown * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+protected: virtual void * __ptr64 __cdecl CItemCollection::FindItem(struct IDispatch * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+protected: virtual void * __ptr64 __cdecl CItemCollection::FindItem(long) __ptr64,UnitsCSCom.dll,Exported Function
+protected: virtual void * __ptr64 __cdecl CItemCollection::FindItem(double) __ptr64,UnitsCSCom.dll,Exported Function
+protected: virtual long __cdecl CoElementTemporary::CreateSubelementsCollection(struct IElements * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+protected: virtual long __cdecl CoElementTemporary::CreateParentObject(struct IElement * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"protected: virtual long __cdecl CoElementTemporary::CreateElement(class CElement * __ptr64,struct IElement * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"protected: virtual long __cdecl CoElementTemporary::ChangeParent(long,long) __ptr64",UnitsCSCom.dll,Exported Function
+protected: virtual long __cdecl CoElementPersistent::CreateSubelementsCollection(struct IElements * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+protected: virtual long __cdecl CoElementPersistent::CreateParentObject(struct IElement * __ptr64 * __ptr64) __ptr64,UnitsCSCom.dll,Exported Function
+"protected: virtual long __cdecl CoElementPersistent::CreateElement(class CElement * __ptr64,struct IElement * __ptr64 * __ptr64) __ptr64",UnitsCSCom.dll,Exported Function
+"protected: virtual long __cdecl CoElementPersistent::ChangeParent(long,long) __ptr64",UnitsCSCom.dll,Exported Function
+protected: virtual class CElement * __ptr64 __cdecl CoElementPersistent::GetObjectElementPtr(void) __ptr64,UnitsCSCom.dll,Exported Function
+"protected: static long __cdecl ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTI(unsigned long,struct ITypeInfo * __ptr64 * __ptr64)",UnitsCSCom.dll,Exported Function
+"protected: static long __cdecl ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTI(unsigned long,struct ITypeInfo * __ptr64 * __ptr64)",UnitsCSCom.dll,Exported Function
+"protected: static long __cdecl ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::GetTI(unsigned long,struct ITypeInfo * __ptr64 * __ptr64)",UnitsCSCom.dll,Exported Function
+protected: static int __cdecl CSoidPropertiesCounter::GetElementFilter(struct tagVARIANT),UnitsCSCom.dll,Exported Function
+"protected: static class ATL::CComTypeInfoHolder ATL::IDispatchImpl<struct IMDSObjects,&struct _GUID const IID_IMDSObjects,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::_tih",UnitsCSCom.dll,Exported Function
+"protected: static class ATL::CComTypeInfoHolder ATL::IDispatchImpl<struct IMDSNodes,&struct _GUID const IID_IMDSNodes,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::_tih",UnitsCSCom.dll,Exported Function
+"protected: static class ATL::CComTypeInfoHolder ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>::_tih",UnitsCSCom.dll,Exported Function
+protected: long __cdecl CoElementPersistent::ChangeElementParent(long) __ptr64,UnitsCSCom.dll,Exported Function
+protected: int __cdecl CoElementPersistent::LockDocument(void) __ptr64,UnitsCSCom.dll,Exported Function
+"protected: class CElement * __ptr64 __cdecl CoElement::GetElementParentByLevel(class CElement * __ptr64,long) __ptr64",UnitsCSCom.dll,Exported Function
+ncrxEntryPoint,UnitsCSCom.dll,Exported Function
+"long __cdecl DependencyPropEditDlg(class NcArray<class NcDbObjectId,class OdPlainObjectsAllocator<class NcDbObjectId> > & __ptr64,class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > const & __ptr64)",UnitsCSCom.dll,Exported Function
+"long __cdecl CreateAcCOMWrapper(class NcDbObjectId & __ptr64,struct IDispatch * __ptr64 * __ptr64)",UnitsCSCom.dll,Exported Function
+IWrCSInsulationDesignation::Visible,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Update,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::TrueColor,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::TransformBy,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::TraceryType,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Step,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::SetXData,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::ScaleEntity,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Rotate3D,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Rotate,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::PlotStyleName,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::OwnerID,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::ObjectName,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::ObjectID,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Move,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Mirror3D,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Mirror,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Material,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineWeightUp,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineWeightTracery,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineWeightDown,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Lineweight,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineTypeUp,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineTypeTracery,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineTypeScaleUp,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineTypeScaleTracery,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineTypeScaleDown,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LinetypeScale,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::LineTypeDown,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Linetype,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Layer,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::IsViewUpLine,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::IsViewDownLine,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::IntersectWith,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Hyperlinks,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Highlight,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Handle,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::GetXData,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::GetBoundingBox,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Erase,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::EntityType,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::EntityName,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Document,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::DistBetweenPlines,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Delete,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Database,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Copy,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::ColorUp,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::ColorTracery,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::ColorDown,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::color,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::ArrayRectangular,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::ArrayPolar,UnitsCSCom.dll,COM Method
+IWrCSInsulationDesignation::Application,UnitsCSCom.dll,COM Property
+IWrCSInsulationDesignation::Angle,UnitsCSCom.dll,COM Property
+IParameters::SetParameter,UnitsCSCom.dll,COM Method
+IParameters::Item,UnitsCSCom.dll,COM Method
+IParameters::Has,UnitsCSCom.dll,COM Method
+IParameters::DeleteParameter,UnitsCSCom.dll,COM Method
+IParameters::DeleteAll,UnitsCSCom.dll,COM Method
+IParameters::Count,UnitsCSCom.dll,COM Property
+IParameters::_NewEnum,UnitsCSCom.dll,COM Property
+IParameter::ValueComment,UnitsCSCom.dll,COM Property
+IParameter::Value,UnitsCSCom.dll,COM Property
+IParameter::Name,UnitsCSCom.dll,COM Property
+IParameter::Comment,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WSShowLimitationGraphics,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WSShowGraphicsUCS,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WSPosition,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WSBasePointLimitation,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LZP,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LZM,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LYP,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LYM,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LXP,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LXM,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::WS_LR,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Visible,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Update,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::TrueColor,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::TransformBy,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::SetXData,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::RotateAroundZ,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::RotateAroundY,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::RotateAroundX,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Rotate,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::OwnerID,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::ObjectName,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::ObjectID,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Name,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Move,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Mirror,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Material,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Lineweight,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Linetype,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::LimitationType,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Layer,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Highlight,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Handle,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::GetXData,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Erase,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::EntityType,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::EntityName,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Element,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Document,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Delete,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Database,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::Copy,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::color,UnitsCSCom.dll,COM Property
+IMDSWorkSpace::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSWorkSpace::Application,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::XRefName,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Width,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Visible,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Update,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::TwistAngle,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::TrueColor,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::TransformBy,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Target,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::SetXData,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::SelectionType,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Scale,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Rotate,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Quality,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::ProjectionType,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Profile,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::PrintFrame,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::OwnerID,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::ObjectName,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::ObjectID,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::ObjectFilter,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Name,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Move,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Mirror,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Material,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LOD,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Lineweight,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Linetype,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Layer,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextVisible,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextStyle,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextPosition,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextOffsetY,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextOffsetX,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextHeight,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelTextExpression,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelFrameOffsY,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelFrameOffsX,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::LabelFrame,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Highlight,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Height,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Handle,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::GetXData,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::GenerateInvisibleLines,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::FrontClipDistance,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::FrontClip,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::FrameLayer,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Erase,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::EntityType,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::EntityName,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Document,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Direction,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Delete,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Database,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::CustomScale,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Copy,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::color,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::Center,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::BackClipDistance,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::BackClip,UnitsCSCom.dll,COM Property
+IMDSViewportFrame::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSViewportFrame::Application,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Width,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Visible,UnitsCSCom.dll,COM Property
+IMDSViewportDef::ViewportType,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Update,UnitsCSCom.dll,COM Method
+IMDSViewportDef::TrueColor,UnitsCSCom.dll,COM Property
+IMDSViewportDef::TransformBy,UnitsCSCom.dll,COM Method
+IMDSViewportDef::TextStyleName,UnitsCSCom.dll,COM Property
+IMDSViewportDef::TextHeight,UnitsCSCom.dll,COM Property
+IMDSViewportDef::SetXData,UnitsCSCom.dll,COM Method
+IMDSViewportDef::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Rotate,UnitsCSCom.dll,COM Method
+IMDSViewportDef::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSViewportDef::OwnerID,UnitsCSCom.dll,COM Property
+IMDSViewportDef::ObjectName,UnitsCSCom.dll,COM Property
+IMDSViewportDef::ObjectID,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Name,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Move,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Mirror,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Material,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Lineweight,UnitsCSCom.dll,COM Property
+IMDSViewportDef::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Linetype,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Layer,UnitsCSCom.dll,COM Property
+IMDSViewportDef::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Highlight,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Height,UnitsCSCom.dll,COM Property
+IMDSViewportDef::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Handle,UnitsCSCom.dll,COM Property
+IMDSViewportDef::GetXData,UnitsCSCom.dll,COM Method
+IMDSViewportDef::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSViewportDef::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSViewportDef::FrontClip,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Erase,UnitsCSCom.dll,COM Method
+IMDSViewportDef::EntityType,UnitsCSCom.dll,COM Property
+IMDSViewportDef::EntityName,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Document,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Depth,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Delete,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Database,UnitsCSCom.dll,COM Property
+IMDSViewportDef::Copy,UnitsCSCom.dll,COM Method
+IMDSViewportDef::color,UnitsCSCom.dll,COM Property
+IMDSViewportDef::BasePoint,UnitsCSCom.dll,COM Property
+IMDSViewportDef::BackClip,UnitsCSCom.dll,COM Property
+IMDSViewportDef::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSViewportDef::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSViewportDef::Application,UnitsCSCom.dll,COM Property
+IMDSUnitsFactory::CreateUnit,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::XYAngle,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Visible,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::UpdateGraphics,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Update,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::UnitPosition,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::UnitName,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::TrueColor,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::TransformBy,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::SetXData,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Rotate,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::ProjectionOnXYLockWS,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Weight_Netto,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Weight_Bruto,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Weight,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Type,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Tag,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Standard,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Reference,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Refdrawing,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Name,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Material_Standard,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Material,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Manufacturer,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Group,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Part_Comment,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::ParametricData,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::OwnerID,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::ObjectName,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::ObjectID,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Nodes,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::NameWS,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Move,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Mirror,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Material,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Lineweight,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Linetype,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Layer,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Highlight,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Handle,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::GetXData,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::GetVolume,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::GetArea,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Explication_Number,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Explication_Include,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Explication_Group,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Explication_Comment,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Erase,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::EntityType,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::EntityName,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Element,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Document,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Delete,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Database,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Copy,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::color,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Bom_Qty,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Bom_Number,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Bom_Include,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Bom_Group,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::Bom_Comment,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::AxisZLockWS,UnitsCSCom.dll,COM Property
+IMDSParametricEnt::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSParametricEnt::Application,UnitsCSCom.dll,COM Property
+IMDSObjects::Item,UnitsCSCom.dll,COM Method
+IMDSObjects::Count,UnitsCSCom.dll,COM Property
+IMDSObjects::_NewEnum,UnitsCSCom.dll,COM Property
+IMDSNodes::Item,UnitsCSCom.dll,COM Method
+IMDSNodes::Count,UnitsCSCom.dll,COM Property
+IMDSNodes::_NewEnum,UnitsCSCom.dll,COM Property
+IMDSNode::Visible,UnitsCSCom.dll,COM Property
+IMDSNode::Update,UnitsCSCom.dll,COM Method
+IMDSNode::TrueColor,UnitsCSCom.dll,COM Property
+IMDSNode::TransformBy,UnitsCSCom.dll,COM Method
+IMDSNode::SetXData,UnitsCSCom.dll,COM Method
+IMDSNode::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSNode::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSNode::Rotate,UnitsCSCom.dll,COM Method
+IMDSNode::Radius,UnitsCSCom.dll,COM Property
+IMDSNode::Position,UnitsCSCom.dll,COM Property
+IMDSNode::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSNode::OwnerObject,UnitsCSCom.dll,COM Property
+IMDSNode::OwnerLink,UnitsCSCom.dll,COM Property
+IMDSNode::OwnerID,UnitsCSCom.dll,COM Property
+IMDSNode::ObjectName,UnitsCSCom.dll,COM Property
+IMDSNode::ObjectID,UnitsCSCom.dll,COM Property
+IMDSNode::NodeType,UnitsCSCom.dll,COM Property
+IMDSNode::Name,UnitsCSCom.dll,COM Property
+IMDSNode::Move,UnitsCSCom.dll,COM Method
+IMDSNode::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSNode::Mirror,UnitsCSCom.dll,COM Method
+IMDSNode::Material,UnitsCSCom.dll,COM Property
+IMDSNode::Links,UnitsCSCom.dll,COM Property
+IMDSNode::Lineweight,UnitsCSCom.dll,COM Property
+IMDSNode::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSNode::Linetype,UnitsCSCom.dll,COM Property
+IMDSNode::Layer,UnitsCSCom.dll,COM Property
+IMDSNode::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSNode::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSNode::Highlight,UnitsCSCom.dll,COM Method
+IMDSNode::HasOwnerLink,UnitsCSCom.dll,COM Property
+IMDSNode::HasOwner,UnitsCSCom.dll,COM Property
+IMDSNode::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSNode::Handle,UnitsCSCom.dll,COM Property
+IMDSNode::GetXData,UnitsCSCom.dll,COM Method
+IMDSNode::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSNode::GetConnections,UnitsCSCom.dll,COM Method
+IMDSNode::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSNode::Erase,UnitsCSCom.dll,COM Method
+IMDSNode::EntityType,UnitsCSCom.dll,COM Property
+IMDSNode::EntityName,UnitsCSCom.dll,COM Property
+IMDSNode::Element,UnitsCSCom.dll,COM Property
+IMDSNode::Document,UnitsCSCom.dll,COM Property
+IMDSNode::DirectionLength,UnitsCSCom.dll,COM Property
+IMDSNode::Direction,UnitsCSCom.dll,COM Property
+IMDSNode::Delete,UnitsCSCom.dll,COM Method
+IMDSNode::Database,UnitsCSCom.dll,COM Property
+IMDSNode::Copy,UnitsCSCom.dll,COM Method
+IMDSNode::color,UnitsCSCom.dll,COM Property
+IMDSNode::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSNode::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSNode::Application,UnitsCSCom.dll,COM Property
+IMDSGrounding::XYAngle,UnitsCSCom.dll,COM Property
+IMDSGrounding::Visible,UnitsCSCom.dll,COM Property
+IMDSGrounding::UpdateGraphics,UnitsCSCom.dll,COM Method
+IMDSGrounding::Update,UnitsCSCom.dll,COM Method
+IMDSGrounding::UnitPosition,UnitsCSCom.dll,COM Property
+IMDSGrounding::UnitName,UnitsCSCom.dll,COM Property
+IMDSGrounding::TrueColor,UnitsCSCom.dll,COM Property
+IMDSGrounding::TransformBy,UnitsCSCom.dll,COM Method
+IMDSGrounding::SetXData,UnitsCSCom.dll,COM Method
+IMDSGrounding::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSGrounding::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSGrounding::Rotate,UnitsCSCom.dll,COM Method
+IMDSGrounding::ProjectionOnXYLockWS,UnitsCSCom.dll,COM Property
+IMDSGrounding::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Weight_Netto,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Weight_Bruto,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Weight,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Type,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Tag,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Standard,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Reference,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Refdrawing,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Name,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Material_Standard,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Material,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Manufacturer,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Group,UnitsCSCom.dll,COM Property
+IMDSGrounding::Part_Comment,UnitsCSCom.dll,COM Property
+IMDSGrounding::ParametricData,UnitsCSCom.dll,COM Property
+IMDSGrounding::OwnerID,UnitsCSCom.dll,COM Property
+IMDSGrounding::ObjectName,UnitsCSCom.dll,COM Property
+IMDSGrounding::ObjectID,UnitsCSCom.dll,COM Property
+IMDSGrounding::Nodes,UnitsCSCom.dll,COM Property
+IMDSGrounding::NameWS,UnitsCSCom.dll,COM Property
+IMDSGrounding::Move,UnitsCSCom.dll,COM Method
+IMDSGrounding::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSGrounding::Mirror,UnitsCSCom.dll,COM Method
+IMDSGrounding::Material,UnitsCSCom.dll,COM Property
+IMDSGrounding::Lineweight,UnitsCSCom.dll,COM Property
+IMDSGrounding::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSGrounding::Linetype,UnitsCSCom.dll,COM Property
+IMDSGrounding::Layer,UnitsCSCom.dll,COM Property
+IMDSGrounding::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSGrounding::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSGrounding::Highlight,UnitsCSCom.dll,COM Method
+IMDSGrounding::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSGrounding::Handle,UnitsCSCom.dll,COM Property
+IMDSGrounding::GetXData,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetVolume,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetLengthSeparated,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetLength,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetAreaSeparated,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetArea,UnitsCSCom.dll,COM Method
+IMDSGrounding::GetArea,UnitsCSCom.dll,COM Method
+IMDSGrounding::Explication_Number,UnitsCSCom.dll,COM Property
+IMDSGrounding::Explication_Include,UnitsCSCom.dll,COM Property
+IMDSGrounding::Explication_Group,UnitsCSCom.dll,COM Property
+IMDSGrounding::Explication_Comment,UnitsCSCom.dll,COM Property
+IMDSGrounding::Erase,UnitsCSCom.dll,COM Method
+IMDSGrounding::EntityType,UnitsCSCom.dll,COM Property
+IMDSGrounding::EntityName,UnitsCSCom.dll,COM Property
+IMDSGrounding::Element,UnitsCSCom.dll,COM Property
+IMDSGrounding::Document,UnitsCSCom.dll,COM Property
+IMDSGrounding::Delete,UnitsCSCom.dll,COM Method
+IMDSGrounding::Database,UnitsCSCom.dll,COM Property
+IMDSGrounding::Copy,UnitsCSCom.dll,COM Method
+IMDSGrounding::color,UnitsCSCom.dll,COM Property
+IMDSGrounding::Bom_Qty,UnitsCSCom.dll,COM Property
+IMDSGrounding::Bom_Number,UnitsCSCom.dll,COM Property
+IMDSGrounding::Bom_Include,UnitsCSCom.dll,COM Property
+IMDSGrounding::Bom_Group,UnitsCSCom.dll,COM Property
+IMDSGrounding::Bom_Comment,UnitsCSCom.dll,COM Property
+IMDSGrounding::AxisZLockWS,UnitsCSCom.dll,COM Property
+IMDSGrounding::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSGrounding::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSGrounding::Application,UnitsCSCom.dll,COM Property
+IMDSELCollision::Visible,UnitsCSCom.dll,COM Property
+IMDSELCollision::Update,UnitsCSCom.dll,COM Method
+IMDSELCollision::TrueColor,UnitsCSCom.dll,COM Property
+IMDSELCollision::TransformBy,UnitsCSCom.dll,COM Method
+IMDSELCollision::SetXData,UnitsCSCom.dll,COM Method
+IMDSELCollision::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSELCollision::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSELCollision::Rotate,UnitsCSCom.dll,COM Method
+IMDSELCollision::ProfileName,UnitsCSCom.dll,COM Property
+IMDSELCollision::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSELCollision::OwnerID,UnitsCSCom.dll,COM Property
+IMDSELCollision::ObjectSecond,UnitsCSCom.dll,COM Property
+IMDSELCollision::ObjectNameSecond,UnitsCSCom.dll,COM Property
+IMDSELCollision::ObjectNameFirst,UnitsCSCom.dll,COM Property
+IMDSELCollision::ObjectName,UnitsCSCom.dll,COM Property
+IMDSELCollision::ObjectID,UnitsCSCom.dll,COM Property
+IMDSELCollision::ObjectFirst,UnitsCSCom.dll,COM Property
+IMDSELCollision::Name,UnitsCSCom.dll,COM Property
+IMDSELCollision::Move,UnitsCSCom.dll,COM Method
+IMDSELCollision::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSELCollision::Mirror,UnitsCSCom.dll,COM Method
+IMDSELCollision::Material,UnitsCSCom.dll,COM Property
+IMDSELCollision::Lineweight,UnitsCSCom.dll,COM Property
+IMDSELCollision::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSELCollision::Linetype,UnitsCSCom.dll,COM Property
+IMDSELCollision::Layer,UnitsCSCom.dll,COM Property
+IMDSELCollision::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSELCollision::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSELCollision::Highlight,UnitsCSCom.dll,COM Method
+IMDSELCollision::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSELCollision::Handle,UnitsCSCom.dll,COM Property
+IMDSELCollision::Group2,UnitsCSCom.dll,COM Property
+IMDSELCollision::Group1,UnitsCSCom.dll,COM Property
+IMDSELCollision::GetXData,UnitsCSCom.dll,COM Method
+IMDSELCollision::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSELCollision::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSELCollision::Erase,UnitsCSCom.dll,COM Method
+IMDSELCollision::EntityType,UnitsCSCom.dll,COM Property
+IMDSELCollision::EntityName,UnitsCSCom.dll,COM Property
+IMDSELCollision::Element,UnitsCSCom.dll,COM Property
+IMDSELCollision::Document,UnitsCSCom.dll,COM Property
+IMDSELCollision::Distance,UnitsCSCom.dll,COM Property
+IMDSELCollision::Delete,UnitsCSCom.dll,COM Method
+IMDSELCollision::Database,UnitsCSCom.dll,COM Property
+IMDSELCollision::Copy,UnitsCSCom.dll,COM Method
+IMDSELCollision::color,UnitsCSCom.dll,COM Property
+IMDSELCollision::CollisionType,UnitsCSCom.dll,COM Property
+IMDSELCollision::CollisionDistance,UnitsCSCom.dll,COM Property
+IMDSELCollision::Cause,UnitsCSCom.dll,COM Property
+IMDSELCollision::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSELCollision::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSELCollision::Application,UnitsCSCom.dll,COM Property
+IMDSDataObject::SetXData,UnitsCSCom.dll,COM Method
+IMDSDataObject::OwnerID,UnitsCSCom.dll,COM Property
+IMDSDataObject::ObjectName,UnitsCSCom.dll,COM Property
+IMDSDataObject::ObjectID,UnitsCSCom.dll,COM Property
+IMDSDataObject::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSDataObject::Handle,UnitsCSCom.dll,COM Property
+IMDSDataObject::GetXData,UnitsCSCom.dll,COM Method
+IMDSDataObject::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSDataObject::Erase,UnitsCSCom.dll,COM Method
+IMDSDataObject::Element,UnitsCSCom.dll,COM Property
+IMDSDataObject::Document,UnitsCSCom.dll,COM Property
+IMDSDataObject::Delete,UnitsCSCom.dll,COM Method
+IMDSDataObject::Database,UnitsCSCom.dll,COM Property
+IMDSDataObject::Application,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Visible,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Update,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::UnitPosition,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::UnitName,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::TrueColor,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::TransformBy,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::SetXData,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Rotate,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::OwnerID,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::ObjectName,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::ObjectID,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Move,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Mirror,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Material,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Lineweight,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Linetype,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Layer,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Highlight,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Handle,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::GetXData,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Erase,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::EntityType,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::EntityName,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Element,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Document,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Delete,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Database,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::Copy,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::color,UnitsCSCom.dll,COM Property
+IMDSCOWBlockRef::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSCOWBlockRef::Application,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Visible,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Update,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::TrueColor,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::TransformBy,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::SetXData,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Rotate,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::OwnerID,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::ObjectName,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::ObjectID,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Move,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Mirror,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Material,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Lineweight,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Linetype,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Layer,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Highlight,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Handle,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::GetXData,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Erase,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::EntityType,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::EntityName,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Document,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Delete,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Database,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::Copy,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::color,UnitsCSCom.dll,COM Property
+IMDSBoundingBox::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSBoundingBox::Application,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Visible,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Update,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::UNITShowLimitationGraphics,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UnitPosition,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UnitName,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNITBasePointLimitation,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UnitAngle,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LZP,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LZM,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LYP,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LYM,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LXP,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LXM,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::UNIT_LR,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::TrueColor,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::TransformBy,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::SetXData,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::ScaleEntity,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Rotate3D,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Rotate,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::ProjectionOnXYLockWS,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::PlotStyleName,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::OwnerID,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::ObjectName,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::ObjectID,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Nodes,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::NameWS,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Move,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Mirror3D,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Mirror,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Material,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Lineweight,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::LinetypeScale,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Linetype,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::LimitationType,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Layer,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::IntersectWith,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Hyperlinks,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Highlight,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::HasExtensionDictionary,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Handle,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::GetXData,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::GetExtensionDictionary,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::GetBoundingBox,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Erase,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::EntityType,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::EntityName,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Element,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Document,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Delete,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Database,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::Copy,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::color,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::AxisZLockWS,UnitsCSCom.dll,COM Property
+IMDSBlockRefEx::ArrayRectangular,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::ArrayPolar,UnitsCSCom.dll,COM Method
+IMDSBlockRefEx::Application,UnitsCSCom.dll,COM Property
+IElements::Remove,UnitsCSCom.dll,COM Method
+IElements::Item,UnitsCSCom.dll,COM Method
+IElements::Count,UnitsCSCom.dll,COM Property
+IElements::Add,UnitsCSCom.dll,COM Method
+IElements::_NewEnum,UnitsCSCom.dll,COM Property
+IElement::SubElements,UnitsCSCom.dll,COM Property
+IElement::Parent,UnitsCSCom.dll,COM Property
+IElement::Parameters,UnitsCSCom.dll,COM Property
+IElement::ObjectId,UnitsCSCom.dll,COM Property
+IElement::Name,UnitsCSCom.dll,COM Property
+IElement::IsValid,UnitsCSCom.dll,COM Property
+IElement::Implementation,UnitsCSCom.dll,COM Property
+IElement::HasParent,UnitsCSCom.dll,COM Property
+IElement::GetValueComment,UnitsCSCom.dll,COM Method
+IElement::GetValue,UnitsCSCom.dll,COM Method
+IElement::GetPath,UnitsCSCom.dll,COM Method
+IElement::GetParentByLevel,UnitsCSCom.dll,COM Method
+IElement::GetById,UnitsCSCom.dll,COM Method
+IElement::ElementId,UnitsCSCom.dll,COM Property
+IElement::Description,UnitsCSCom.dll,COM Property
+IElement::CopyFrom,UnitsCSCom.dll,COM Method
+IElement::AddChild,UnitsCSCom.dll,COM Method
+DllUnregisterServer,UnitsCSCom.dll,Exported Function
+DllRegisterServer,UnitsCSCom.dll,Exported Function
+DllGetClassObject,UnitsCSCom.dll,Exported Function
+DllCanUnloadNow,UnitsCSCom.dll,Exported Function
+const CPersistentObjectsCollection::`vftable',UnitsCSCom.dll,Exported Function
+const CoElementTemporary::`vftable'{for `ISupportErrorInfo'},UnitsCSCom.dll,Exported Function
+"const CoElementTemporary::`vftable'{for `ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>'}",UnitsCSCom.dll,Exported Function
+const CoElementStandalone::`vftable'{for `ISupportErrorInfo'},UnitsCSCom.dll,Exported Function
+"const CoElementStandalone::`vftable'{for `ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>'}",UnitsCSCom.dll,Exported Function
+const CoElementPersistent::`vftable'{for `ISupportErrorInfo'},UnitsCSCom.dll,Exported Function
+"const CoElementPersistent::`vftable'{for `ATL::IDispatchImpl<struct IElement,&struct _GUID const IID_IElement,&struct _GUID const LIBID_mdsUnitsLib,1,0,class ATL::CComTypeInfoHolder>'}",UnitsCSCom.dll,Exported Function
+const CoElementAdapterT<class linCSNode>::`vftable',UnitsCSCom.dll,Exported Function
+const CoElementAdapterT<class linCSDataObject>::`vftable',UnitsCSCom.dll,Exported Function
+const CoElementAdapterT<class linCSCollision>::`vftable',UnitsCSCom.dll,Exported Function
+const CoElementAdapter::`vftable',UnitsCSCom.dll,Exported Function
+const CNodesPersistentCollection::`vftable',UnitsCSCom.dll,Exported Function
+const CItemCollection::`vftable',UnitsCSCom.dll,Exported Function
+const CEnumVariantImpl::`vftable',UnitsCSCom.dll,Exported Function

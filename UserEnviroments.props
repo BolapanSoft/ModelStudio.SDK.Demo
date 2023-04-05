@@ -1,0 +1,10 @@
+<!--Для указания переменных окружения для рабочего места разместите этот файл в родительском каталоге файла Directory.Build.props -->
+<Project>
+	<PropertyGroup>
+		<CSoft>E:\Projects\CS Studio API\Stable_API</CSoft>
+		<CommonCS>$(CSoft)\Model Studio CS\Common\Common_vc7</CommonCS>
+        <NC_SDK>E:\Projects\NanoCAD\NC_SDK_22.0.5944.3726.6053\</NC_SDK>
+        <NCadSDK>$(NC_SDK)</NCadSDK>
+    </PropertyGroup>
+</Project>
+

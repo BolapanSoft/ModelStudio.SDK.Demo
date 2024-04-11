@@ -5,6 +5,10 @@
 // Не добавляйте сюда файлы, которые планируете часто изменять, так как в этом случае выигрыша в производительности не будет.
 
 #ifndef PCH_H
+//#define _AFX_NO_DB_SUPPORT
+//#define _AFX_NO_DAO_SUPPORT
+//#define _AFX_NO_AFXCMN_SUPPORT
+
 #define PCH_H
 
 #define _AFX_NO_OLE_SUPPORT
@@ -36,7 +40,7 @@ inline long InterlockedIncrement(long volatile* pn) { return _InterlockedIncreme
 inline long InterlockedDecrement(long volatile* pn) { return _InterlockedDecrement(pn); }
 #endif
 #define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS      // some CString constructors will be explicit
-
+/**/
 #include <afxwin.h>         // MFC core and standard components
 #include <afxext.h>         // MFC extensions
 
@@ -57,6 +61,7 @@ inline long InterlockedDecrement(long volatile* pn) { return _InterlockedDecreme
 #ifndef _AFX_NO_OLE_SUPPORT
 #include <afxdtctl.h>           // MFC support for Internet Explorer 4 Common Controls
 #endif
+
 #ifndef _AFX_NO_AFXCMN_SUPPORT
 #include <afxcmn.h>                     // MFC support for Windows Common Controls
 #endif // _AFX_NO_AFXCMN_SUPPORT
@@ -70,3 +75,4 @@ inline long InterlockedDecrement(long volatile* pn) { return _InterlockedDecreme
 {throw gcnew System::Exception(gcnew String(strException));}\
 catch (...){throw gcnew System::Exception(errorMsg);}
 #endif //PCH_H
+#include "Commtpl.h"
